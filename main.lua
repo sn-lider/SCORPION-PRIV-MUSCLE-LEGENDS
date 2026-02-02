@@ -1,14 +1,14 @@
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/sn-lider/FREE-LIBRARY-OP/refs/heads/main/main.lua"))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/sn-lider/Scorpion-LIBRARY-BY-SN/refs/heads/main/main.lua"))()
 
 -- OBTENER NOMBRE DEL JUGADOR
 local player = game.Players.LocalPlayer
 local displayName = player.DisplayName or player.Name
 
 -- VENTANA PRINCIPAL
-local window = library:AddWindow("Scorpion PRIVATE | Bienvenido " .. displayName, {
+local window = library:AddWindow("SCORPION PRIVATE | Bienvenido " .. displayName, {
     main_color = Color3.fromRGB(0, 0, 0),
     min_size = Vector2.new(600, 820),
     can_resize = false,
